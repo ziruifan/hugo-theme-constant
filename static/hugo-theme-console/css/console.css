@@ -96,6 +96,10 @@ h1 {
     margin-bottom: 150px;
 }
 
+h1::after{
+    content:"";
+}
+
 .content-column-content p,
 .content-column-content li {
     color: #666;
@@ -145,7 +149,11 @@ strong {
 }
 
 .logo {
-    font-weight: normal;
+    font-weight: bold;
+}
+
+.site-name {
+    font-size: 24px;
 }
 
 .terminal-menu li {
@@ -162,7 +170,7 @@ figure {
 .footer {
     clear: both;
     margin-top: 100px;
-    padding-top: 10px;;
+    padding-top: 10px;
     border-top: 1px solid var(--secondary-color);
     color: var(--global-font-color);
 }
@@ -187,13 +195,8 @@ figure {
     }
 }
 
+.terminal-prompt::before,
 .terminal-prompt::after {
-    -webkit-animation: cursor 1s infinite;
-    animation: cursor 1s infinite;
-    width: 10px;
-}
-
-.terminal-prompt::before {
     content: none;
 }
 
