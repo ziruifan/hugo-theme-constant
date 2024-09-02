@@ -50,7 +50,6 @@
     }
 }
 
-
 .sidebar-heading {
     text-transform: none;
     letter-spacing: 0;
@@ -169,13 +168,23 @@ figure {
 }
 
 .image-grid {
-    display: grid;
-    grid-template-rows: auto;
-    display: grid;
-    grid-gap: 1em;
-    grid-template-rows: auto;
-    grid-template-columns: repeat(auto-fit,
-            minmax(calc(var(--page-width) / 4), 1fr));
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-grid>a {
+    margin: 0.5em;
+}
+
+.image-grid>a>img {
+    height: 280px;
+}
+
+@media only screen and (max-width: 850px) {
+    .image-grid>a>img {
+        width: 100%;
+        height: auto;
+    }
 }
 
 .terminal-prompt::after {
