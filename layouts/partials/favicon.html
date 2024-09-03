@@ -1,1 +1,5 @@
-   
+{{ if .Site.Params.Favicon }}
+    {{ with resources.Get "images/favicon.ico" }}
+    <link rel="icon" type="image/x-icon" href="{{ .RelPermalink }}">
+    {{ end }}
+{{ end }}

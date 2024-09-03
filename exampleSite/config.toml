@@ -15,6 +15,10 @@ languageCode = "en-us"
   # To change the logo, please name the image file "logo.png" and put it under assets/images/
   footerImg = false
 
+  # Show favicon
+  # To change the icon, please convert the icon to "favicon.ico" and put it under assets/images/
+  favicon = true
+
   [[params.navlinks]]
   name = "About"
   url = "about/"
