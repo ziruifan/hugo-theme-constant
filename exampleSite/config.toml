@@ -11,6 +11,10 @@ languageCode = "en-us"
   # To disable animations, please remove or comment animationStyle parameter
   animateStyle = "animated zoomIn fast" 
 
+  # Show a small logo at footer
+  # To change the logo, please name the image file "logo.png" and put it under assets/images/
+  footerImg = false
+
   [[params.navlinks]]
   name = "About"
   url = "about/"

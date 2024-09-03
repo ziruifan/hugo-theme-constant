@@ -1,4 +1,11 @@
 <div class="footer">
-    Powered by <a href="https://gohugo.io/">Hugo</a> with
-    <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Console Theme</a>. 
+    <div>
+        Powered by <a href="https://gohugo.io/">Hugo</a> with
+        <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Console Theme</a>. 
+    </div>
+    {{ if .Site.Params.FooterImg }}
+        {{ with resources.Get "images/logo.png" }}
+        <img src="{{ .RelPermalink }}" class="footer-img">
+        {{ end }}
+    {{ end }}
 </div>
