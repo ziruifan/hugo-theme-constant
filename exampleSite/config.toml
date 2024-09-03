@@ -2,6 +2,7 @@ baseurl = "https://example.com/"
 title = "console-demo"
 theme = "hugo-theme-console"
 languageCode = "en-us"
+copyright = "Copyright © 2024 Albert Author."
 
 [params]
   # Cutting off the page title to two chars for mobile (console-demo -> co)
@@ -17,7 +18,7 @@ languageCode = "en-us"
 
   # Show favicon
   # To change the icon, please convert the icon to "favicon.ico" and put it under assets/images/
-  favicon = true
+  favicon = false
 
   [[params.navlinks]]
   name = "About"
