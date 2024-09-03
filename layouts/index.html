@@ -31,7 +31,7 @@ Console is a minimal, responsive and light theme for Hugo inspired by Linux cons
         <a href="{{ .Permalink }}" title="{{ .Title }}">
         {{ $image := .Page.Resources.GetMatch .Params.image }}
         {{ with $image }}
-            {{ $thumb := .Resize "400x" }}
+            {{ $thumb := .Resize "x400" }}
             <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
         {{end}}
         </a>
