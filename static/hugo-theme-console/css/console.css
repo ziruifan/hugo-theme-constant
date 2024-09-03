@@ -141,7 +141,19 @@ h6,
 }
 
 h1 {
+    font-weight: 800;
     margin-bottom: 150px;
+}
+
+h2 {
+    font-weight: 600;
+}
+
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
 }
 
 h1::after{
@@ -197,11 +209,9 @@ strong {
 }
 
 .logo {
-    font-weight: bold;
-}
-
-.site-name {
-    font-size: 24px;
+    font-weight: 800;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .terminal-menu li {

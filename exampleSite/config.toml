@@ -5,20 +5,20 @@ languageCode = "en-us"
 
 [params]
   # Cutting off the page title to two chars for mobile (console-demo -> co)
-  titleCutting = true
+  titleCutting = false
 
   # Set the animation style -- https://animate.style/
   # To disable animations, please remove or comment animationStyle parameter
   animateStyle = "animated zoomIn fast" 
 
   [[params.navlinks]]
-  name = "about/"
+  name = "About"
   url = "about/"
 
   [[params.navlinks]]
-  name = "posts/"
+  name = "Posts"
   url = "posts/"
   
   [[params.navlinks]]
-  name = "photos/"
+  name = "Photos"
   url = "photos/"
