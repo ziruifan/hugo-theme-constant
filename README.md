@@ -10,6 +10,8 @@ A minimal theme for Hugo.
 
 ## Installation
 
+Create a theme folder and add the [repo](https://github.com/Clusravin/hugo-theme-constant/).
+
 ```sh
 $ mkdir themes
 $ cd themes
@@ -20,7 +22,7 @@ See the [Hugo documentation](https://gohugo.io/themes/installing/) for more info
 
 ## Configuration
 
-Set theme parameter in your config file:
+Set theme parameter in your config file.
 
 ```
 theme = "hugo-theme-constant"
@@ -28,7 +30,7 @@ theme = "hugo-theme-constant"
 
 ## Example Site
 
-To run the example site, please type the following command:
+Run Hugo server to set up the example site.
 
 ```
 make hugo-server

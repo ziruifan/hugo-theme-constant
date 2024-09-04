@@ -9,6 +9,8 @@ A minimal theme for Hugo.
 
 ## Installation
 
+Create a theme folder and add the [repo](https://github.com/Clusravin/hugo-theme-constant/).
+
 ```
 $ mkdir themes
 $ cd themes
@@ -19,7 +21,7 @@ See the [Hugo documentation](https://gohugo.io/themes/installing/) for more info
 
 ## Configuration
 
-Set theme parameter in your config file:
+Set theme parameter in your config file.
 
 ```
 theme = "hugo-theme-constant"
