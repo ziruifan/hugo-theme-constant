@@ -4,6 +4,10 @@ A minimal theme for Hugo.
 
 ![Constant](https://github.com/Clusravin/hugo-theme-constant/blob/master/images/screenshot.png?raw=true)
 
+## Live demo
+
+* https://clusravin.github.io/hugo-theme-constant/
+
 ## Installation
 
 ```sh
