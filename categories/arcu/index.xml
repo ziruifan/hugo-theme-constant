@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arcu on Constant Theme Demo</title>
+    <link>http://localhost:1313/categories/arcu/</link>
+    <description>Recent content in Arcu on Constant Theme Demo</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <copyright>Copyright © 2024 Albert Author.</copyright>
+    <lastBuildDate>Wed, 04 Sep 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/arcu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nam</title>
+      <link>http://localhost:1313/photos/nam/</link>
+      <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/nam/</guid>
+      <description>&lt;p&gt;Nam et mollis ipsum. Morbi aliquam magna sit amet urna egestas ornare. Vivamus ex nisi, efficitur id tincidunt ac, cursus ut neque. Sed quam sem, dignissim sit amet varius eu, luctus ut erat. Sed eget nibh eget tellus eleifend cursus at in augue. Nam eleifend mi nisl, eu faucibus est sagittis quis. Nullam vulputate, sem nec tincidunt ultrices, ex lorem rhoncus lectus, id rhoncus purus lectus vel ligula. Maecenas maximus ultricies lectus, eget aliquam eros. Curabitur non posuere enim, et placerat neque. Vestibulum sit amet luctus tortor, at lacinia ante.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Pellentesque iaculis rutrum turpis</title>
+      <link>http://localhost:1313/posts/pellentesque-iaculis/</link>
+      <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/pellentesque-iaculis/</guid>
+      <description>&lt;p&gt;Pellentesque iaculis rutrum turpis. Vestibulum in metus nec lorem finibus facilisis eget et nisl. Curabitur sodales, metus nec pharetra lacinia, odio justo porttitor sapien, eget congue elit ex in enim. Proin a magna faucibus, rutrum libero sit amet, egestas est. Aliquam scelerisque lobortis arcu eu mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque sed dictum magna. Suspendisse non ligula vestibulum, ultricies est vitae, auctor enim. Cras porta dapibus orci. Interdum et malesuada fames ac ante ipsum primis in faucibus. In hac habitasse platea dictumst. Cras blandit iaculis tortor, in congue quam rutrum et. Integer dictum nibh non condimentum sodales. Phasellus pretium iaculis viverra. Proin consectetur, lorem pretium malesuada ultrices, felis justo sollicitudin tellus, ac blandit velit augue porta elit.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Sed</title>
+      <link>http://localhost:1313/photos/sed/</link>
+      <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/sed/</guid>
+      <description>&lt;p&gt;Sed rutrum, risus pellentesque auctor dignissim, nisl dui vestibulum dui, vel facilisis neque ex sit amet odio. Aenean sed consequat diam. Duis in tincidunt massa, eu mollis elit. Integer ac tincidunt lorem. Donec vehicula sapien et auctor placerat. Aenean tempor accumsan eros. Nullam vitae enim in neque semper mattis. Maecenas accumsan purus non volutpat aliquet. Phasellus sit amet mi cursus, maximus velit quis, finibus metus. Curabitur eget semper tellus. Curabitur vulputate congue ante, non molestie massa efficitur porta. Cras ullamcorper sem non lectus hendrerit dignissim.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
