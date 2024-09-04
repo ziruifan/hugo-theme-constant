@@ -1,19 +1,15 @@
-# Hugo Theme: Console
+# Hugo Theme: Constant
 
-A minimal, responsive and light theme for Hugo inspired by Linux console. 
+A minimal theme for Hugo. 
 
-![Console](https://github.com/mrmierzejewski/hugo-theme-console/blob/master/images/preview.png?raw=true)
-
-## Live demo
-
-* https://themes.gohugo.io/themes/hugo-theme-console/
+![Constant](https://github.com/Clusravin/hugo-theme-constant/blob/master/images/screenshot.png?raw=true)
 
 ## Installation
 
 ```sh
 $ mkdir themes
 $ cd themes
-$ git submodule add https://github.com/mrmierzejewski/hugo-theme-console.git hugo-theme-console
+$ git submodule add https://github.com/Clusravin/hugo-theme-constant.git hugo-theme-constant
 ```
     
 See the [Hugo documentation](https://gohugo.io/themes/installing/) for more information.
@@ -23,7 +19,7 @@ See the [Hugo documentation](https://gohugo.io/themes/installing/) for more info
 Set theme parameter in your config file:
 
 ```
-theme = "hugo-theme-console"
+theme = "hugo-theme-constant"
 ```
 
 ## Example Site
@@ -36,11 +32,11 @@ make hugo-server
 
 ### Start page
 
-The default start page template is located at ```themes/hugo-theme-console/layouts/index.html```. To change the page content, you to need to copy this file to 
+The default start page template is located at ```themes/hugo-theme-constant/layouts/index.html```. To change the page content, you to need to copy this file to 
 your website top-level ```layouts``` folder (```layouts/index.html```).
 
 ## License
 
-Copyright © 2021 [Marcin Mierzejewski](https://mrmierzejewski.com/)
+Copyright © 2024 [Fan Zirui](https://github.com/Clusravin/)
 
-The theme is released under the MIT License. Check the [original theme license](https://github.com/panr/hugo-theme-terminal/blob/master/LICENSE.md) for additional licensing information.
+The theme is released under the MIT License. Check the [original theme license](https://github.com/mrmierzejewski/hugo-theme-console/blob/master/LICENSE.md) for additional licensing information.
