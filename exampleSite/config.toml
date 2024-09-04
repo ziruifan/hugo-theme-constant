@@ -5,12 +5,8 @@ languageCode = "en-us"
 copyright = "Copyright © 2024 Albert Author."
 
 [params]
-  # Cutting off the page title to two chars for mobile (Constant Theme Demo -> co)
+  # Cutting off the page title to two chars for mobile (Constant Theme Demo -> Co)
   titleCutting = false
-
-  # Set the animation style -- https://animate.style/
-  # To disable animations, please remove or comment animationStyle parameter
-  animateStyle = "animated zoomIn fast" 
 
   # Show a small logo at footer
   # To change the logo, please name the image file "logo.png" and put it under assets/images/
