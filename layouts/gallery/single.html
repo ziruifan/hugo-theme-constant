@@ -1,11 +1,13 @@
 {{ define "main" }}
 <h1>{{ .Page.Title }}</h1>
 
+{{ .PublishDate.Format "Jan. 2, 2006" }}
+<br/><br/><br/>
 {{ if and (isset .Params "image") .Params.image }}
     {{ $image := .Page.Resources.GetMatch .Params.image }}
     {{ printf `<img src="%s" alt="%s" class="img-responsive gallery-image">` $image.RelPermalink .Title | safeHTML }}
 {{ end }}
-
+<br/><br/><br/>
 {{ .Content }}
 {{ template "_internal/disqus.html" . }}
 
