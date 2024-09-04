@@ -2,18 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Urna on Constant Theme Demo</title>
-    <link>http://localhost:1313/categories/urna/</link>
+    <link>https://clusravin.github.io/hugo-theme-constant/categories/urna/</link>
     <description>Recent content in Urna on Constant Theme Demo</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2024 Albert Author.</copyright>
     <lastBuildDate>Wed, 04 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/urna/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://clusravin.github.io/hugo-theme-constant/categories/urna/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Vivamus</title>
-      <link>http://localhost:1313/photos/vivamus/</link>
+      <link>https://clusravin.github.io/hugo-theme-constant/photos/vivamus/</link>
       <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/photos/vivamus/</guid>
+      <guid>https://clusravin.github.io/hugo-theme-constant/photos/vivamus/</guid>
       <description>&lt;p&gt;Vivamus non lorem nisl. Maecenas egestas massa non ex fermentum condimentum. Aliquam varius eu orci ornare cursus. Nulla facilisi. Aenean ornare sit amet ante eu vehicula. Cras viverra orci nec sem euismod, sit amet rhoncus dui blandit. Pellentesque posuere interdum suscipit. Etiam tristique ligula efficitur, pulvinar massa eget, vehicula felis.&lt;/p&gt;</description>
     </item>
   </channel>
