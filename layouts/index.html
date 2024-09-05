@@ -1,13 +1,13 @@
 {{ define "main" }}
 
-<h1>About</h1>
+<h1>About <a href="about/">»</a></h1>
 
 <p>
 Constant is a minimal theme for Hugo.
 </p>
 <br/>
 
-<h1>Latest posts</h1>
+<h1>Posts <a href="posts/">»</a></h1>
 
 <div class="posts-list">
 {{ with .Site.GetPage "/posts" }}
@@ -23,7 +23,7 @@ Constant is a minimal theme for Hugo.
 {{ end }}
 </div>
 
-<h1>Latest photos</h1>
+<h1>Photos <a href="photos/">»</a></h1>
 
 <div class="image-grid">
 {{ with .Site.GetPage "/photos" }}

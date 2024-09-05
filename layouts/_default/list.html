@@ -5,7 +5,7 @@
 
 <div class="posts-list">
 {{ range sort .Data.Pages "Date" "desc" }}
-    {{ if not .Params.private }}
+    {{ if and (not .Params.private) (ne .Type "gallery") }}
         <div class="post">
             <p>
                 <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>    
@@ -16,5 +16,6 @@
     {{ end }}
 {{ end }}
 </div>
+{{- partial "img_grid.html" . -}}
 
 {{ end }}

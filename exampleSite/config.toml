@@ -17,17 +17,21 @@ copyright = "Copyright © 2024 Albert Author."
   favicon = false
 
   [[params.navlinks]]
-  name = "About"
-  url = "about/"
-
-  [[params.navlinks]]
-  name = "Posts"
-  url = "posts/"
+  name = "Alpha"
+  url = "categories/alpha/"
   
   [[params.navlinks]]
-  name = "Photos"
-  url = "photos/"
+  name = "Bravo"
+  url = "categories/bravo/"
   
   [[params.navlinks]]
-  name = "Categories"
-  url = "categories/"
+  name = "Charlie"
+  url = "categories/charlie/"
+  
+  [[params.navlinks]]
+  name = "Delta"
+  url = "categories/delta/"
+  
+  [[params.navlinks]]
+  name = "Echo"
+  url = "categories/echo/"
