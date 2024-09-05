@@ -16,7 +16,18 @@
     {{ end }}
 {{ end }}
 </div>
+{{ $post_count := 0 }}
+{{ $photo_count := 0 }}
+{{ range .Data.Pages }}
+    {{ if eq .Type "gallery" }}
+        {{ $photo_count = add $photo_count 1 }}
+    {{ else }}
+        {{ $post_count = add $post_count 1 }}
+    {{ end }}
+{{ end }}
+{{ if and (gt $post_count 0) (gt $photo_count 0) }}
 <br/>
+{{ end }}
 {{- partial "img_grid.html" . -}}
 
 {{ end }}
