@@ -252,6 +252,7 @@ figure {
 }
 
 .image-grid>a>img {
+    width: auto;
     height: 280px;
 }
 
