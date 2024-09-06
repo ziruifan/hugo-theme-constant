@@ -161,6 +161,10 @@ h1::after{
     content: "";
 }
 
+.tag {
+    margin-right: 10px;
+}
+
 .content-column-content p,
 .content-column-content li {
     color: #666;

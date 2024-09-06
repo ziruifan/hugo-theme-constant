@@ -46,6 +46,13 @@
     
         
         <url>
+            <loc>https://clusravin.github.io/hugo-theme-constant/tags/beta/</loc>
+            <lastmod>2024-09-04T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://clusravin.github.io/hugo-theme-constant/categories/bravo/</loc>
             <lastmod>2024-09-04T00:00:00+00:00</lastmod>
         </url>
@@ -75,6 +82,13 @@
         
         <url>
             <loc>https://clusravin.github.io/hugo-theme-constant/categories/echo/</loc>
+            <lastmod>2024-09-04T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
+            <loc>https://clusravin.github.io/hugo-theme-constant/tags/gamma/</loc>
             <lastmod>2024-09-04T00:00:00+00:00</lastmod>
         </url>
         
@@ -123,6 +137,13 @@
     
         
         <url>
+            <loc>https://clusravin.github.io/hugo-theme-constant/tags/</loc>
+            <lastmod>2024-09-04T00:00:00+00:00</lastmod>
+        </url>
+        
+    
+        
+        <url>
             <loc>https://clusravin.github.io/hugo-theme-constant/photos/vivamus/</loc>
             <lastmod>2024-09-04T00:00:00+00:00</lastmod>
         </url>
@@ -139,12 +160,6 @@
         <url>
             <loc>https://clusravin.github.io/hugo-theme-constant/about/</loc>
             <lastmod>2016-11-05T21:05:33+05:30</lastmod>
-        </url>
-        
-    
-        
-        <url>
-            <loc>https://clusravin.github.io/hugo-theme-constant/tags/</loc>
         </url>
         
     

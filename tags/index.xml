@@ -7,6 +7,21 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>Copyright © 2024 Albert Author.</copyright>
+    <lastBuildDate>Wed, 04 Sep 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://clusravin.github.io/hugo-theme-constant/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Beta</title>
+      <link>https://clusravin.github.io/hugo-theme-constant/tags/beta/</link>
+      <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://clusravin.github.io/hugo-theme-constant/tags/beta/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Gamma</title>
+      <link>https://clusravin.github.io/hugo-theme-constant/tags/gamma/</link>
+      <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
+      <guid>https://clusravin.github.io/hugo-theme-constant/tags/gamma/</guid>
+      <description></description>
+    </item>
   </channel>
 </rss>
