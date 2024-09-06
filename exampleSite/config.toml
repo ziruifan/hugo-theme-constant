@@ -1,7 +1,7 @@
 baseurl = "https://example.com/"
 title = "Constant Theme Demo"
 theme = "hugo-theme-constant"
-languageCode = "en-us"
+languageCode = "en"
 copyright = "Copyright © 2024 Albert Author."
 
 [params]
