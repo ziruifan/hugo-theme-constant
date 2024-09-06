@@ -31,4 +31,4 @@ theme = "hugo-theme-constant"
 
 Copyright © 2024 [Fan Zirui](https://github.com/Clusravin/)
 
-The theme is released under the MIT License. Check the [original theme license](https://github.com/mrmierzejewski/hugo-theme-console/blob/master/LICENSE.md) for additional licensing information.
+The theme is released under the MIT License. Check the [original theme license](https://github.com/mrmierzejewski/hugo-theme-console/blob/master/LICENSE) for additional licensing information.
