@@ -2,6 +2,7 @@
 title = "Nam mattis tincidunt rutrum"
 date = "2024-09-04"
 categories = ["Charlie"]
+tags = ["Beta", "Gamma"]
 +++
 
 Nam mattis tincidunt rutrum. In ut eros ut augue venenatis volutpat non quis lacus. Pellentesque dictum eros justo, ac vestibulum justo varius nec. Praesent sapien diam, blandit sit amet leo vel, venenatis tempus lorem. Curabitur lobortis eleifend purus. Pellentesque porttitor ex eget nisi scelerisque, eu malesuada erat fringilla. Phasellus est lacus, vehicula id pharetra ac, molestie nec arcu. Vivamus iaculis odio in mauris imperdiet vehicula. Fusce nec ligula ac ex faucibus sagittis feugiat sed quam.

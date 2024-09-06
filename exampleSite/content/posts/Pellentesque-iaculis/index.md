@@ -2,6 +2,7 @@
 title = "Pellentesque iaculis rutrum turpis"
 date = "2024-09-03"
 categories = ["Bravo"]
+tags = ["Beta"]
 +++
 
 Pellentesque iaculis rutrum turpis. Vestibulum in metus nec lorem finibus facilisis eget et nisl. Curabitur sodales, metus nec pharetra lacinia, odio justo porttitor sapien, eget congue elit ex in enim. Proin a magna faucibus, rutrum libero sit amet, egestas est. Aliquam scelerisque lobortis arcu eu mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque sed dictum magna. Suspendisse non ligula vestibulum, ultricies est vitae, auctor enim.

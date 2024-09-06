@@ -1,0 +1,5 @@
+{{ if .Params.Tags }}
+    {{ range (.GetTerms "tags") }}
+        <a href="{{ .RelPermalink }}" class="tag">{{ .LinkTitle }}</a>
+    {{ end }}
+{{ end }}
