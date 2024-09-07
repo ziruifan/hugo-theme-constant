@@ -1,6 +1,6 @@
 +++
-date = "2016-11-05T21:05:33+05:30"
 title = "About"
+date = "2024-09-05"
 +++
 
 A minimal theme for Hugo. 

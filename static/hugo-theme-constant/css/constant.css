@@ -161,6 +161,19 @@ h1::after{
     content: "";
 }
 
+blockquote {
+    border-left: 1px solid var(--secondary-color);
+    padding-left: 15px;
+}
+
+blockquote::after {
+    content: "";
+}
+
+blockquote>p {
+    margin: 10px
+}
+
 .tag {
     margin-right: 10px;
 }
