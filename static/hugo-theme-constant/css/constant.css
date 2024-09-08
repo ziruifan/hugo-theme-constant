@@ -47,66 +47,42 @@
 }
 
 @font-face {
-    font-family: 'Gen Shin Gothic';
-    src: url('../font/GenShinGothic-ExtraLight.ttf') format('truetype');
-    font-style: normal;
-    font-weight: 200;
-    text-rendering: optimizeLegibility;
-}
-
-@font-face {
-    font-family: 'Gen Shin Gothic';
-    src: url('../font/GenShinGothic-Light.ttf') format('truetype');
-    font-style: normal;
-    font-weight: 300;
-    text-rendering: optimizeLegibility;
-}
-
-@font-face {
-    font-family: 'Gen Shin Gothic';
-    src: url('../font/GenShinGothic-Normal.ttf') format('truetype');
+    font-family: 'Nowar Neo Sans';
+    src: url('../font/NowarNeoSans-Light.ttf') format('truetype');
     font-style: normal;
     font-weight: 400;
     text-rendering: optimizeLegibility;
 }
 
 @font-face {
-    font-family: 'Gen Shin Gothic';
-    src: url('../font/GenShinGothic-Regular.ttf') format('truetype');
+    font-family: 'Nowar Neo Sans';
+    src: url('../font/NowarNeoSans-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: 500;
     text-rendering: optimizeLegibility;
 }
 
 @font-face {
-    font-family: 'Gen Shin Gothic';
-    src: url('../font/GenShinGothic-Medium.ttf') format('truetype');
+    font-family: 'Nowar Neo Sans';
+    src: url('../font/NowarNeoSans-Medium.ttf') format('truetype');
     font-style: normal;
     font-weight: 600;
     text-rendering: optimizeLegibility;
 }
 
 @font-face {
-    font-family: 'Gen Shin Gothic';
-    src: url('../font/GenShinGothic-Bold.ttf') format('truetype');
+    font-family: 'Nowar Neo Sans';
+    src: url('../font/NowarNeoSans-Bold.ttf') format('truetype');
     font-style: normal;
     font-weight: 700;
-    text-rendering: optimizeLegibility;
-}
-
-@font-face {
-    font-family: 'Gen Shin Gothic';
-    src: url('../font/GenShinGothic-Heavy.ttf') format('truetype');
-    font-style: normal;
-    font-weight: 900;
     text-rendering: optimizeLegibility;
 }
 
 :root {
     --global-font-size: 16px;
     --global-font-color: #444;
-    --mono-font-stack: Maven Pro, Gen Shin Gothic, Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
-    --font-stack: Maven Pro, Gen Shin Gothic, Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    --mono-font-stack: Maven Pro, Nowar Neo Sans, Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    --font-stack: Maven Pro, Nowar Neo Sans, Roboto Mono, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
     --global-line-height: 1.6em;
     --page-width: 70em;
     --display-h1-decoration: 1;
