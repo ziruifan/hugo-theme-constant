@@ -6,7 +6,7 @@ A minimal theme for Hugo.
 
 ## Live demo
 
-* https://clusravin.github.io/hugo-theme-constant/
+Demo site hosted on [Github Pages](https://clusravin.github.io/hugo-theme-constant/).
 
 ## Installation
 
