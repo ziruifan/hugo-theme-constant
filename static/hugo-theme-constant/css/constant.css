@@ -161,6 +161,10 @@ h1::after{
     content: "";
 }
 
+p>em {
+    color: var(--global-font-color);
+}
+
 blockquote {
     border-left: 1px solid var(--secondary-color);
     padding-left: 15px;
