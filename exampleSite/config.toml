@@ -6,8 +6,11 @@ copyright = "Copyright © 2024 Albert Author."
 
 [params]
   # Site description, displayed in the about section of the home page
-  Description = "Constant is a minimal theme for Hugo."
+  description = "Constant is a minimal theme for Hugo."
   
+  # 404 page error message
+  errorMessage = "<strong>Page not found.</strong>"
+
   # Cutting off the page title to two chars for mobile (Constant Theme Demo -> Co)
   titleCutting = false
 
