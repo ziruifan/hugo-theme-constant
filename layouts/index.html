@@ -22,9 +22,9 @@
 
 <h1>Photos <a href="photos/">»</a></h1>
 
-<div class="image-grid">
+<div class="image-grid hide-excess">
 {{ with .Site.GetPage "/photos" }}
-    {{ range first 3 (sort .Data.Pages "Date" "desc")}}
+    {{ range first 10 (sort .Data.Pages "Date" "desc")}}
         <a href="{{ .Permalink }}" title="{{ .Title }}">
         {{ $image := .Page.Resources.GetMatch .Params.image }}
         {{ with $image }}

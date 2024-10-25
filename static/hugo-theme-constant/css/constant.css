@@ -273,11 +273,9 @@ figure {
     height: 270px;
 }
 
-@media only screen and (max-width: 850px) {
-    .image-grid>a>img {
-        width: 100%;
-        height: auto;
-    }
+.hide-excess {
+    height: 585px;
+    overflow: hidden;
 }
 
 .terminal-prompt::before,
@@ -312,6 +310,19 @@ figure {
 }
 
 @media only screen and (max-width: 850px) {
+    .image-grid>a>img {
+        width: 100%;
+        height: auto;
+    }
+
+    .hide-excess {
+        height: auto;
+    }
+
+    .hide-excess>a:nth-child(n+4) {
+        display: none;
+    }
+
     .site-name {
         width: 2ch;
         overflow: hidden;
