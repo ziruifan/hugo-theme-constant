@@ -11,11 +11,7 @@
 <div class="posts-list">
 {{ with .Site.GetPage "/posts" }}
     {{ range first 3 (sort .Data.Pages "Date" "desc" (where .Pages ".Params.private" "!=" true))}}
-        <div class="post">
-            <div class="date"><p>{{ .PublishDate.Format "Jan. 2, 2006" }}</p></div>
-            <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
-            {{ partial "summary.html" . }}
-        </div>    
+        {{ partial "post_entry.html" . }}
     {{ end }}
 {{ end }}
 </div>

@@ -6,13 +6,7 @@
 <div class="posts-list">
 {{ range sort .Data.Pages "Date" "desc" }}
     {{ if and (not .Params.private) (ne .Type "gallery") }}
-        <div class="post">
-            <p>
-                <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>    
-                <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
-                {{ partial "summary.html" . }}
-            </p>
-        </div>
+        {{ partial "post_entry.html" . }}
     {{ end }}
 {{ end }}
 </div>
@@ -28,6 +22,5 @@
 {{ if and (gt $post_count 0) (gt $photo_count 0) }}
 <br/>
 {{ end }}
-{{- partial "img_grid.html" . -}}
-
+{{ partial "img_grid.html" . }}
 {{ end }}
