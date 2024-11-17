@@ -14,7 +14,7 @@
         <div class="post">
             <div class="date"><p>{{ .PublishDate.Format "Jan. 2, 2006" }}</p></div>
             <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
-            <p>{{ .Summary }}</p>
+            {{ partial "summary.html" . }}
         </div>    
     {{ end }}
 {{ end }}

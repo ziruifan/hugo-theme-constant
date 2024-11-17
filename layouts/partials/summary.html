@@ -1,0 +1,3 @@
+{{ $summary := .Content | strings.Truncate 400 }}
+{{ $summary := $summary | replaceRE "<img[^>]*>" "" }}
+{{ $summary | safeHTML }}
