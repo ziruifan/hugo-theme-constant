@@ -8,7 +8,7 @@
     {{ printf `<img src="%s" alt="%s" class="img-responsive gallery-image">` $image.RelPermalink .Title | safeHTML }}
 {{ end }}
 <br/><br/><br/>
-{{ .Content }}
+<div class="gallery-content">{{ .Content }}</div>
 {{- partial "tag_list.html" . -}}
 {{ template "_internal/disqus.html" . }}
 

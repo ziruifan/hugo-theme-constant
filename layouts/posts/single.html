@@ -9,7 +9,7 @@
     // <a href="{{ . }}">Twitter</a>
 {{ end }}
 <br/><br/><br/>
-{{ .Content }}
+<div class="post-content">{{ .Content }}</div>
 {{- partial "tag_list.html" . -}}
 {{ template "_internal/disqus.html" . }}
 {{ end }}
