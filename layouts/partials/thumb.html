@@ -1,0 +1,7 @@
+{{ $thumb := . }}
+{{ if (gt .Width .Height) }}
+    {{ $thumb = .Resize "x500" }}
+{{ else }}
+    {{ $thumb = .Resize "500x" }}
+{{ end }}
+{{ return $thumb }}
