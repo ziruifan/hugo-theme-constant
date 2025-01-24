@@ -1,8 +1,8 @@
 name = "hugo-theme-constant"
 license = "MIT"
-licenselink = "https://github.com/Clusravin/hugo-theme-constant/blob/master/LICENSE"
+licenselink = "https://github.com/TheBenthicWyrm/hugo-theme-constant/blob/master/LICENSE"
 description = "A minimal theme for Hugo."
-homepage = "https://github.com/Clusravin/hugo-theme-constant"
+homepage = "https://github.com/TheBenthicWyrm/hugo-theme-constant"
 tags = ["blog", "gallery", "portfolio", "console", "terminal", "clean", "personal", "minimal", "monotone", "simple", "technical", "responsive", "mobile", "minimalist", "retro", "animation"]
 features = ["disqus", "responsive", "google analytics"]
 min_version = "0.81.0"
@@ -10,7 +10,7 @@ min_version = "0.81.0"
 [author]
     name = "Fan Zirui"
     homepage = "https://zirui.fun"
-    github = "https://github.com/Clusravin"
+    github = "https://github.com/TheBenthicWyrm"
 
 [original]
     author = "Marcin Mierzejewski"
