@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Echo on Constant Theme Demo</title>
-    <link>https://clusravin.github.io/hugo-theme-constant/categories/echo/</link>
+    <link>https://thebenthicwyrm.github.io/hugo-theme-constant/categories/echo/</link>
     <description>Recent content in Echo on Constant Theme Demo</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2024 Albert Author.</copyright>
     <lastBuildDate>Wed, 04 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://clusravin.github.io/hugo-theme-constant/categories/echo/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://thebenthicwyrm.github.io/hugo-theme-constant/categories/echo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nunc</title>
-      <link>https://clusravin.github.io/hugo-theme-constant/photos/nunc/</link>
+      <link>https://thebenthicwyrm.github.io/hugo-theme-constant/photos/nunc/</link>
       <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://clusravin.github.io/hugo-theme-constant/photos/nunc/</guid>
-      <description>Nunc elementum purus nec purus tincidunt sagittis. Aliquam ut pretium felis. Nulla elementum consectetur felis in sodales. Donec vel sapien quam. Cras ut justo turpis. Praesent non metus justo. Aenean sapien tellus, elementum non justo eu, auctor pellentesque odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla iaculis odio ac molestie faucibus. Duis vitae erat sodales, semper urna vitae, aliquet dui.</description>
+      <guid>https://thebenthicwyrm.github.io/hugo-theme-constant/photos/nunc/</guid>
+      <description>&lt;p&gt;Nunc elementum purus nec purus tincidunt sagittis. Aliquam ut pretium felis. Nulla elementum consectetur felis in sodales. Donec vel sapien quam. Cras ut justo turpis. Praesent non metus justo. Aenean sapien tellus, elementum non justo eu, auctor pellentesque odio. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla iaculis odio ac molestie faucibus. Duis vitae erat sodales, semper urna vitae, aliquet dui.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
