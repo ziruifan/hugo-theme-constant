@@ -16,7 +16,7 @@
 {{- if not .PublishDate.IsZero }}<meta property="article:published_time" {{ .PublishDate.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
 {{ else if not .Date.IsZero }}<meta property="article:published_time" {{ .Date.Format $iso8601 | printf "content=%q" | safeHTMLAttr }} />
 {{ end }}
-{{- end }}{{/* .IsPage */}}
+{{- end }}
 
 {{- with .Params.audio }}<meta property="og:audio" content="{{ . }}" />{{ end }}
 {{- with .Params.locale }}<meta property="og:locale" content="{{ . }}" />{{ end }}
