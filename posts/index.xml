@@ -2,32 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Constant Theme Demo</title>
-    <link>https://thebenthicwyrm.github.io/hugo-theme-constant/posts/</link>
+    <link>https://ziruifan.github.io/hugo-theme-constant/posts/</link>
     <description>Recent content in Posts on Constant Theme Demo</description>
     <generator>Hugo</generator>
     <language>en</language>
     <copyright>Copyright © 2024 Albert Author.</copyright>
     <lastBuildDate>Thu, 05 Sep 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://thebenthicwyrm.github.io/hugo-theme-constant/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ziruifan.github.io/hugo-theme-constant/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Suspendisse eget tellus eu quam sollicitudin dapibus</title>
-      <link>https://thebenthicwyrm.github.io/hugo-theme-constant/posts/suspendisse-eget/</link>
+      <link>https://ziruifan.github.io/hugo-theme-constant/posts/suspendisse-eget/</link>
       <pubDate>Thu, 05 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://thebenthicwyrm.github.io/hugo-theme-constant/posts/suspendisse-eget/</guid>
+      <guid>https://ziruifan.github.io/hugo-theme-constant/posts/suspendisse-eget/</guid>
       <description>&lt;p&gt;Suspendisse eget tellus eu quam sollicitudin dapibus. Nullam ante purus, ultricies at nulla at, condimentum dapibus arcu. Quisque sed elit et sem varius dictum at in dolor. Proin nisi arcu, facilisis a pharetra nec, condimentum in odio. Aliquam tincidunt, nibh ut fringilla tincidunt, metus orci gravida massa, quis pharetra neque sem sit amet ligula. Curabitur at pulvinar velit, et sagittis tellus. Suspendisse tristique lectus egestas tellus faucibus, vitae mattis nunc consequat.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Nam mattis tincidunt rutrum</title>
-      <link>https://thebenthicwyrm.github.io/hugo-theme-constant/posts/nam-mattis/</link>
+      <link>https://ziruifan.github.io/hugo-theme-constant/posts/nam-mattis/</link>
       <pubDate>Wed, 04 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://thebenthicwyrm.github.io/hugo-theme-constant/posts/nam-mattis/</guid>
+      <guid>https://ziruifan.github.io/hugo-theme-constant/posts/nam-mattis/</guid>
       <description>&lt;p&gt;Nam mattis tincidunt rutrum. In ut eros ut augue venenatis volutpat non quis lacus. Pellentesque dictum eros justo, ac vestibulum justo varius nec. Praesent sapien diam, blandit sit amet leo vel, venenatis tempus lorem. Curabitur lobortis eleifend purus. Pellentesque porttitor ex eget nisi scelerisque, eu malesuada erat fringilla. Phasellus est lacus, vehicula id pharetra ac, molestie nec arcu. Vivamus iaculis odio in mauris imperdiet vehicula. Fusce nec ligula ac ex faucibus sagittis feugiat sed quam.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Pellentesque iaculis rutrum turpis</title>
-      <link>https://thebenthicwyrm.github.io/hugo-theme-constant/posts/pellentesque-iaculis/</link>
+      <link>https://ziruifan.github.io/hugo-theme-constant/posts/pellentesque-iaculis/</link>
       <pubDate>Tue, 03 Sep 2024 00:00:00 +0000</pubDate>
-      <guid>https://thebenthicwyrm.github.io/hugo-theme-constant/posts/pellentesque-iaculis/</guid>
+      <guid>https://ziruifan.github.io/hugo-theme-constant/posts/pellentesque-iaculis/</guid>
       <description>&lt;p&gt;Pellentesque iaculis rutrum turpis. Vestibulum in metus nec lorem finibus facilisis eget et nisl. Curabitur sodales, metus nec pharetra lacinia, odio justo porttitor sapien, eget congue elit ex in enim. Proin a magna faucibus, rutrum libero sit amet, egestas est. Aliquam scelerisque lobortis arcu eu mattis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque sed dictum magna. Suspendisse non ligula vestibulum, ultricies est vitae, auctor enim.&lt;/p&gt;</description>
     </item>
   </channel>
