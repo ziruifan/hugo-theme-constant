@@ -39,9 +39,14 @@
           </header>
           <nav class="terminal-menu">
             <ul vocab="https://schema.org/" typeof="BreadcrumbList">
-                {{ range .Site.Params.navlinks }}
-                <li><a href="{{ absURL .url }}" typeof="ListItem">{{ .name }}</a></li>
-                {{ end }}
+              {{ range $index, $item := .Site.Params.navlinks }}
+                <li property="itemListElement" typeof="ListItem">
+                  <a property="item" typeof="WebPage" href="{{ absURL $item.url }}">
+                    <span property="name">{{ $item.name }}</span>
+                  </a>
+                  <meta property="position" content="{{ add $index 1 }}">
+                </li>
+              {{ end }}
             </ul>
           </nav>
         </div>
