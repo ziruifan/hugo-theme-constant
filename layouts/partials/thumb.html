@@ -1,7 +1,7 @@
 {{ $thumb := . }}
 {{ if (gt .Width .Height) }}
-    {{ $thumb = .Resize "x500" }}
+    {{ $thumb = .Resize "x800" }}
 {{ else }}
-    {{ $thumb = .Resize "500x" }}
+    {{ $thumb = .Resize "800x" }}
 {{ end }}
 {{ return $thumb }}
