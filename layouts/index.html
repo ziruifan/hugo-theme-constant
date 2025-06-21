@@ -1,12 +1,14 @@
 {{ define "main" }}
 
-<h1>About <a href="about/">»</a></h1>
+<h1>About</h1>
 
 <p>
 {{ .Site.Params.Description | safeHTML }}
 </p>
 
-<h1>Posts <a href="posts/">»</a></h1>
+<p><a href="about/">More »</a></p>
+
+<h1>Latest</h1>
 
 <div class="posts-list">
 {{ with .Site.GetPage "/posts" }}
@@ -16,7 +18,7 @@
 {{ end }}
 </div>
 
-<h1>Photos <a href="photos/">»</a></h1>
+<p><a href="posts/">More posts »</a></p>
 
 <div class="image-grid hide-excess">
 {{ with .Site.GetPage "/photos" }}
@@ -31,5 +33,7 @@
     {{ end }}
 {{ end }}
 </div>
+
+<p><a href="photos/">More photos »</a></p>
 
 {{ end }}

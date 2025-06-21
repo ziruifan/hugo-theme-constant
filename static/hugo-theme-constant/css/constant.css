@@ -255,10 +255,14 @@ figure {
 .image-grid {
     display: flex;
     flex-wrap: wrap;
+    margin-bottom: 1em;
 }
 
 .image-grid>a {
-    margin: 0.5em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: 0;
+    margin-right: 1em;
 }
 
 .image-grid>a>img {
@@ -309,6 +313,10 @@ figure {
 }
 
 @media only screen and (max-width: 850px) {
+    .image-grid>a {
+        margin-right: 0;
+    }
+
     .image-grid>a>img {
         width: 100%;
         height: auto;
