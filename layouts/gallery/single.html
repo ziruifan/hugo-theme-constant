@@ -1,13 +1,13 @@
 {{ define "main" }}
 <h1>{{ .Page.Title }}</h1>
 
-{{ .PublishDate.Format "Jan. 2, 2006" }}
-<br/><br/><br/>
+<div class="post-meta">
+    <time datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "Jan. 2, 2006" }}</time>
+</div>
 {{ if and (isset .Params "image") .Params.image }}
     {{ $image := .Page.Resources.GetMatch .Params.image }}
     {{ printf `<img src="%s" alt="%s" class="img-responsive gallery-image">` $image.RelPermalink .Title | safeHTML }}
 {{ end }}
-<br/><br/><br/>
 <div class="gallery-content">{{ .Content }}</div>
 {{- partial "tag_list.html" . -}}
 {{ template "_internal/disqus.html" . }}

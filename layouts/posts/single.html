@@ -1,14 +1,15 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 
-{{ .PublishDate.Format "Jan. 2, 2006" }}
-{{ with .Params.linkedin }}
-    // <a href="{{ . }}">Linkedin</a>
-{{ end }}
-{{ with .Params.twitter }}
-    // <a href="{{ . }}">Twitter</a>
-{{ end }}
-<br/><br/><br/>
+<div class="post-meta">
+    <time datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "Jan. 2, 2006" }}</time>
+    {{ with .Params.linkedin }}
+        <span class="post-meta-sep">|</span><a href="{{ . }}">LinkedIn</a>
+    {{ end }}
+    {{ with .Params.twitter }}
+        <span class="post-meta-sep">|</span><a href="{{ . }}">Twitter</a>
+    {{ end }}
+</div>
 <div class="post-content">{{ .Content }}</div>
 {{- partial "tag_list.html" . -}}
 {{ template "_internal/disqus.html" . }}

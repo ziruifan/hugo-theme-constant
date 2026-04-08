@@ -1,5 +1,5 @@
 <div class="post">
-    <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>    
+    <div class="date"><time datetime="{{ .PublishDate.Format "2006-01-02" }}">{{ .PublishDate.Format "Jan. 2, 2006" }}</time></div>
     <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
 
     {{ $summary := .Content | strings.Truncate 400 | replaceRE "<img[^>]*>" "" }}

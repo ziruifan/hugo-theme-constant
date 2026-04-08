@@ -3,6 +3,7 @@
     src: url('../font/MavenPro-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: 400;
+    font-display: swap;
     text-rendering: optimizeLegibility;
 }
 
@@ -11,6 +12,7 @@
     src: url('../font/MavenPro-Medium.ttf') format('truetype');
     font-style: normal;
     font-weight: 500;
+    font-display: swap;
     text-rendering: optimizeLegibility;
 }
 
@@ -19,6 +21,7 @@
     src: url('../font/MavenPro-SemiBold.ttf') format('truetype');
     font-style: normal;
     font-weight: 600;
+    font-display: swap;
     text-rendering: optimizeLegibility;
 }
 
@@ -27,6 +30,7 @@
     src: url('../font/MavenPro-Bold.ttf') format('truetype');
     font-style: normal;
     font-weight: 700;
+    font-display: swap;
     text-rendering: optimizeLegibility;
 }
 
@@ -35,6 +39,7 @@
     src: url('../font/MavenPro-ExtraBold.ttf') format('truetype');
     font-style: normal;
     font-weight: 800;
+    font-display: swap;
     text-rendering: optimizeLegibility;
 }
 
@@ -43,6 +48,7 @@
     src: url('../font/MavenPro-Black.ttf') format('truetype');
     font-style: normal;
     font-weight: 900;
+    font-display: swap;
     text-rendering: optimizeLegibility;
 }
 
@@ -51,6 +57,7 @@
     src: url('../font/NowarNeoSans-Light.ttf') format('truetype');
     font-style: normal;
     font-weight: 400;
+    font-display: swap;
     text-rendering: optimizeLegibility;
 }
 
@@ -59,6 +66,7 @@
     src: url('../font/NowarNeoSans-Regular.ttf') format('truetype');
     font-style: normal;
     font-weight: 500;
+    font-display: swap;
     text-rendering: optimizeLegibility;
 }
 
@@ -67,6 +75,7 @@
     src: url('../font/NowarNeoSans-Medium.ttf') format('truetype');
     font-style: normal;
     font-weight: 600;
+    font-display: swap;
     text-rendering: optimizeLegibility;
 }
 
@@ -75,6 +84,7 @@
     src: url('../font/NowarNeoSans-Bold.ttf') format('truetype');
     font-style: normal;
     font-weight: 700;
+    font-display: swap;
     text-rendering: optimizeLegibility;
 }
 
@@ -143,7 +153,7 @@ h6,
 
 h1 {
     font-weight: 800;
-    margin-bottom: 150px;
+    margin-bottom: 1.2em;
 }
 
 h2 {
@@ -389,6 +399,33 @@ figure {
 
     .footer {
         margin-top: 50px;
-        padding-top: 5px;;
+        padding-top: 5px;
     }
+}
+
+.post-meta {
+    margin-bottom: 1.8em;
+    color: #888;
+    font-size: 0.9em;
+}
+
+.post-meta time {
+    color: #888;
+}
+
+.post-meta-sep {
+    margin: 0 0.5em;
+    color: #ccc;
+}
+
+.post-meta a {
+    color: #888;
+}
+
+.post-meta a:hover {
+    color: var(--primary-color);
+}
+
+.gallery-image {
+    margin-bottom: 2em;
 }
